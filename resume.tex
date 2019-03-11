@@ -1,6 +1,6 @@
 % !TEX program = xelatex
 % This is my resume
-% by ice1000
+% by nicekingwei
 
 \documentclass{resume}
 
@@ -12,165 +12,90 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand\headrulewidth{0pt}
-\cfoot{\thepage\ of \pageref{LastPage}}
 
-\name{Tesla Ice Zhang}
+
+\name{Jinwei Long}
 
 \basicInfo{
-  \email{ice1000kotlin@foxmail.com} \textperiodcentered\
-  \phone{(+86) 180-8192-5082} \textperiodcentered\
-  \github[ice1000]{https://github.com/ice1000}
-  % \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+  \email{nicekingwei@foxmail.com} \textperiodcentered\
+  \phone{(+86) 135-4734-9924} \textperiodcentered\
+  \github[nicekingwei]{https://github.com/nicekingwei}
 }
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{The Pennsylvania State University (PSU)}, PA, US}{08/18 -- Current}
-  Major: Computer Science, Anticipated Graduation Date: 06/22
-
-\section{\faUsers\ Work Experience}
-\datedsubsection{\textbf{Sourcebrella Inc.}, Shenzhen, China}{02/18 -- 07/18}
-\role{Intern}{Compiler Front-End, IDE Plugin Development}
+\datedsubsection{\textbf{Zhejiang University},  Bachelor}{Sep,2016 -- Current}
+  Computer Science and Technology \&\& Statistics
+  
+  GPA 3.9/4.0, rank: 20\%
+  
+  First class scholarship for excellent students 
+  \section{\faUsers\ Experience}
+\datedsubsection{\textbf{ZJU Lambda Group}, Zhejiang University}{Sep,2017 -- Current}
+\role{founder}{Programming Language Theory, Functional Programming}
 \begin{itemize}
-  \item Created IntelliJ/CLion/Eclipse plugin of the Pinpoint analyzer. Helped create SonarQube plugin.
-  \item Created a multi-threading cross Java/Kotlin source code indexer which index Hadoop in 4 minutes.
-  \item Learned a lot about Linux programming and clang/llvm.
+  \item Created ZJU Lambda Group
+  \item Organized several presentations about Haskell, Scala, static analysis, verification and dependent types
+  \item Website: \url{https://zju-lambda.tech/}
 \end{itemize}
 
-\datedsubsection{\textbf{PingCAP}, Remote}{08/18 -- Current}
-\role{Intern}{TiKV Team}
+\datedsubsection{\textbf{ZJUBTV}, Zhejiang University}{Sep, 2018 -- Current}
+\role{programmer}{Website development}
 \begin{itemize}
-  \item Improved many libraries used by TiKV. For example,
-    optimized the memory performance of
-    \href{https://docs.rs/crate/grpcio} {grpcio},
-    and added new features to
-    \href{https://docs.rs/crate/procinfo} {procinfo}.
+  \item Developed some internal websites
 \end{itemize}
 
-\section{\faGithubAlt\ Personal Projects}
-% \datedsubsection{\textbf{FriceEngine}}{\url{https://icela.github.io/}}
-% % \role{Kotlin, C\#, Racket, Ruby}{Founder and main contributer to the Kotlin/C\#/Ruby version}
-% A multilingual, natively-written, easy-to-use game engine series.
-% \begin{itemize}
-%   \item Based on life cycle / utility APIs, based on each languages' built-in GUI framework,
-%     easy to install.
-%   \item GitHub issues / milestones are used as task / version managing tools, nice changelogs.
-%   \item A JavaFX-based drag-and-drop GUI designer, generates multilingual codes for each language.
-% \end{itemize}
-\datedsubsection{\textbf{DevKt}}{\url{https://github.com/ice1000/dev-kt}}
-Cross-platform lightweight code editor / Kotlin IDE
+\datedsubsection{\textbf{University of Science and Technology of China}}{Mar, 2018 -- Sep, 2018}
+\role{exchange student and research assistant}{Programming Language Theory}
 \begin{itemize}
-  \item Built-in Java/Kotlin highlights and completion, that can support other languages
-    via plugins (transplantable from JetBrains IDE's).
-    Has extra build \& run support for Kotlin.
-  \item Flexible architecture, decoupled high-level logic with UI, migration to other UI frameworks is easy.
-  \item Provides fine-grained highlight color and keymap settings, supports hot reload.
+	\item Learned a lot about static analysis
+	\item Engaged in the translation of \textit{Practical Foundations for Programming Languages}
+\end{itemize}
+\section{\faGithubAlt\ Projects}
+\datedsubsection{\textbf{Steak Language} , Haskell, C++}{}
+Superset of C++17
+\begin{itemize}
+  \item Functional library written in C++17 which provides generalized algebraic data types, pattern matching and lazy evaluation
+  \item Domain specific language powered by macro
+  \item Compiler written in Haskell, which compiles steak language files into C++17 files
 \end{itemize}
 
-\datedsubsection{\textbf{Lice language}}{\url{https://github.com/lice-lang/lice}}
-% \role{Kotlin, Java}{Founder and main contributer}
-Scalable programming language running on JVM
+\datedsubsection{\textbf{Dualdb}, \texttt{C++}}{}
+A key/value storage system for the First PolarDB Database Performace Contest
 \begin{itemize}
-  \item Supports lambda with and lazy (call by need)/macro (call by name)/strict (call by value).
-  \item About 1/20 of Java's (Hotspot 8u151) performance, provides Java interaction and script engine support.
-  \item Provides CLI REPL with GHCi-style code completion/colored output and JetBrains.
-    IDE plugin supporting semantic-based highlights, completion, go-to-definition, rename, eval-and-replace, quick fixes, etc.
+	\item 15th among 1635 teams in the contest
 \end{itemize}
 
-\datedsubsection{\textbf{Julia-IntelliJ}}{\url{https://github.com/ice1000/julia-intellij}}
-Julia plugin for JetBrains IDEs, compatible with all JetBrains Products.
+\datedsubsection{\textbf{Tigerfix}, \texttt{C++}, \texttt{Python}}{}
+Hot fix tool for compiled languages such as C and C++
 \begin{itemize}
-  \item Semantic-based highlighting, quick fixes, completion, parameter hint, special input mode for Unicode characters.
-  \item Use Markdown plugin to highlight doc strings, provides REPL and SciView (showing the output of Plot libraries).
+  \item Helps to change the implementation of some functions without restarting the running process
 \end{itemize}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
+%datedsubsection{\textbf{Refinement.js}, \texttt{JavaScript}}{}
+%Contract library for JavaScript
 %\begin{itemize}
-%  \item main contribution
+%  \item Use static analyzers as backend
+%  \item Support \texttt{assert}, \texttt{requires} and \texttt{ensures}
 %\end{itemize}
 
-%% \section{\faHeartO\ Achievements}
-%% \datedline{}{Aug. 2017}
-
-\section{\faCogs\ Skills}
-\begin{itemize}[parsep=0.25ex]
-  \item \textbf{Programming Languages}:
-    \textbf{multilingual developer} (not limited to any specific language),
-    and especially experienced in Java/Kotlin/Rust/C\#/Agda/Haskell,
-    comfortable with Dart/C++/F\#/F$\star$ (listed in random order).
-
-  % compiler theories
-  \item \textbf{Compilers}:
-    familiar with various Parser Generators/Combinators,
-    understand CPS and ANF, studied some
-    theories about dependent types (like Luo's UTT, Martin-Löf Type Theory)
-    and their implementations in programming languages.
-
-  % language Kotlin
-  \item \textbf{Kotlin/Java}:
-    \textbf{2 years} of experience,
-    \textbf{4} projects collected in
-    \href{https://kotlin.link/?q=ice} {Awesome Kotlin},
-    familiar with JNI programming, the Gradle build tool, have experience
-    in using the Kotlin compiler to analyze Java code.
-
-  \item \textbf{Formal Verification}:
-    understand dependent types / (co)algebra and Curry-Howard Isomorphism,
-    currently studying Homotopy Type Theory and Cubical Type Theory,
-    familiar with Idris, Agda (\textbf{1 years} of experience,
-    developer team member) and F$\star$
-    \subitem Source code studied: Agda, Idris, miniagda, Mini-TT.
-
-  \item \textbf{JetBrains MPS}:
-    \textbf{1 years} of experience,
-    understand concepts and usages of \textbf{Language-Oriented Programming}.
-
-  \item \textbf{IDE Toolings}:
-    \textbf{2 years} of experience,
-    familiar with the IntelliJ Platform infrastructure and overall
-    architecture (created the
-    \href{https://plugins.jetbrains.com/plugin/10413-julia}
-         {Julia plugin} and many others), also have experience with Eclipse/SonarQube.
-
-  % platforms I am familiar with
-  \item \textbf{Mobile Development}:
-    \textbf{2 years} of experience,
-    Android (Java, Kotlin (Anko)), Fuchsia (Flutter).
-
-  \item \textbf{Developing Tools}:
-    can adapt to any editors/OSs, usually use JetBrains IDEs and Emacs under Ubuntu,
-    have experience with team tools like YouTrack, Jira, GitHub, BitBucket, Coding.net, Tower.
+\datedsubsection{\textbf{Memfs}, \texttt{C++}}{}
+Memory file system for Linux
+\begin{itemize}
+	\item Use skiplist as index data structure
 \end{itemize}
 
-% \section{\faHeartO\ Honors and Awards}
-% \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-% \datedline{Other awards}{2015}
+\section{\faCogs\ Skills}	
+\datedsubsection {\textbf{Programming Languages}}{}
+   C++, Scala, JavaScript, Haskell, Python
 
-\section{\faInfo\ Miscellaneous}
-\begin{itemize}[parsep=0.25ex]
-  \item Blog: \url{https://ice1000.org/} partially translated into English
-  \item Literate Agda Blog: \url{https://ice1000.org/lagda/} used Literate mode of Agda improved by me
-  \item Bintray: \url{https://bintray.com/ice1000} published some useful JVM libraries
-  \item IntelliJ Plugin developer: \url{https://plugins.jetbrains.com/author/10a216dd-c558-4aaf-aa8a-723f431452fb}
-  \item Books about formal verification I've written: \url{https://github.com/ice1000/Books}
-  \item Languages: English - fluent (TOEFL 100), Chinese - native speaker
-  \item Opensource contributions: \url{https://ice1000.org/opensource-contributions/} \\
-    pull-requested (functional improvements) to organizations like \textit{Microsoft, JetBrains, Ruby, Dropbox, PingCAP, TiKV},
-    projects like \textit{agda, imgui, shields.io, intellij-solidity, IntelliJ-EmmyLua, intellij-haskell}
-  \item StackOverflow: \url{https://stackoverflow.com/users/7083401/}
-    3000+ reputations, also active on \href{https://stackexchange.com/users/9532102/} {other StackExchange} sites
-  % https://raw.githubusercontent.com/ice1000/resume/master/resume.pdf
-  \item Get the newest version of this resume: \url{https://tinyurl.com/y8xdlfug}
-  \item \textbf{1 kyu} on
-    \href{https://www.codewars.com/users/ice1000} {CodeWars},
-    ranked \#37 on the whole site, primarily in Haskell
-  \item Love making friends
-\end{itemize}
+\datedsubsection {\textbf{Web Development}}{}
+   Express.js, Akka Actor, Docker
+   
+\datedsubsection{\textbf{Bigdata}}{}
+	Statistics, Hadoop, Spark, Zookeeper
+  
+\datedsubsection{\textbf{Other skills}}{}
+	Design domain specific language, Program analysis
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
 
