@@ -1,9 +1,6 @@
-# ice1000's resume
+# nicekingwei's resume
 
-[![GitHub top language](https://img.shields.io/github/languages/top/ice1000/resume.svg)](https://github.com/ice1000/resume)
-[![GitHub forks](https://img.shields.io/github/forks/ice1000/resume.svg?style=social&label=Fork)](https://github.com/ice1000/resume)
-
-This is my resume, based on [this template](https://github.com/billryan/resume).
+This is my resume, based on [this template](https://github.com/ice1000/resume).
 
 # Build
 

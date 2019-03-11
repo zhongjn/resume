@@ -12,6 +12,7 @@
 *.ind
 *.out
 .idea/
+.vscode/
 
 ## Emacs ##
 
